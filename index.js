@@ -29,7 +29,7 @@ function sayHiToGrandma(string){
   mixedCaps = true;
 }
   if (caps){
-    return "YES INDEED";
+    return "YES INDEED!";
   }
   else if (notCaps){
     return "I can't hear you!";
