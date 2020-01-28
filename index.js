@@ -17,7 +17,7 @@ function logWhisper(string){
 function sayHiToGrandma(string){
   var caps;
   var notCaps;
-  var mixedCase;
+  var mixedCaps;
   
   if (string.toUpperCase() === string){ 
   caps = true;
@@ -26,7 +26,7 @@ function sayHiToGrandma(string){
     notCaps = true;
   }
   else{
-  mixedCase = true;
+  mixedCaps = true;
 }}
 
 ```
