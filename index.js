@@ -27,7 +27,17 @@ function sayHiToGrandma(string){
   }
   else{
   mixedCaps = true;
-}}
+}
+  if (caps){
+    return "YES INDEED";
+  }
+  else if (notCaps){
+    return "I can't hear you!";
+  }
+  else if (string == "I love you, Grandma"){
+    return "I love you, Grandma."
+  }
+}
 
 ```
 var uppercase = "HELLO!"
